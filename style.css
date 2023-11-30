@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    color: white;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.galaxy {
+    height: 100vh;
+    position: relative;
+}
+
+.one {
+    background-image: url("/images/galaxy\ 1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.two {
+    background-image: url("/images/galaxy\ 2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.three {
+    background-image: url("/images/galaxy\ 3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 5%;
+    bottom: 15%;
+    color: white;
+}
+
+.galaxy a {
+    color: white;
+    text-decoration: none;
+    border: 3px solid white;
+    padding: 15px;
+    position: absolute;
+    left: 5%;
+    bottom: 9%;
+
+}
+
+

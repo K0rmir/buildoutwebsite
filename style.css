@@ -32,21 +32,21 @@ a:hover {
 }
 
 .one {
-    background-image: url("/images/galaxy\ 1.jpg");
+    background-image: url("./images/galaxy1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .two {
-    background-image: url("/images/galaxy\ 2.jpg");
+    background-image: url("./images/galaxy2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .three {
-    background-image: url("/images/galaxy\ 3.jpg");
+    background-image: url("./images/galaxy3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

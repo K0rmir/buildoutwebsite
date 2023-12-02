@@ -37,6 +37,9 @@ a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #galaxytwo {
@@ -90,3 +93,22 @@ footer {
     text-align: center;
 }
 
+#videowindow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 1060px;
+    height: 815px;
+    backdrop-filter: blur(2px);
+    top: 15%;
+    border: 3px solid grey;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+iframe {
+    position: fixed;
+    border-radius: 15px;
+
+}

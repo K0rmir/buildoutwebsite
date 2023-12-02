@@ -1,10 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: black;
     margin: 0;
     box-sizing: border-box;
     font-family: monospace;
     font-size: 1rem;
-}
+    }
 
 header {
     display: flex;
@@ -26,26 +30,27 @@ a:hover {
     text-decoration: underline;
 }
 
-.galaxy {
+#galaxyone {
     height: 100vh;
     position: relative;
-}
-
-.one {
     background-image: url("./images/galaxy1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.two {
+#galaxytwo {
+    height: 100vh;
+    position: relative;
     background-image: url("./images/galaxy2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.three {
+#galaxythree {
+    height: 100vh;
+    position: relative;
     background-image: url("./images/galaxy3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -61,7 +66,7 @@ a:hover {
     color: white;
 }
 
-.galaxy a {
+.readmore {
     color: white;
     text-decoration: none;
     border: 3px solid white;
@@ -69,12 +74,19 @@ a:hover {
     position: absolute;
     left: 5%;
     bottom: 9%;
+    width: 15rem;
+    font-size: 1.25rem;
 }
+
+.readmore:hover {
+    backdrop-filter: blur(2px);
+    text-decoration: underline;    
+}
+
 
 footer {
     color: grey; 
     padding: 40px;
     text-align: center;
 }
-
 

@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    
 }
 
 body {
@@ -69,6 +70,23 @@ a:hover {
     color: white;
 }
 
+#watchnow {
+    color: white;
+    text-decoration: none;
+    border: 3px solid white;
+    padding: 15px;
+    position: absolute;
+    left: 5%;
+    bottom: 9%;
+    width: 15rem;
+    font-size: 1.25rem;
+}
+
+#watchnow:hover {
+    backdrop-filter: blur(2px);
+    text-decoration: underline;    
+}
+
 .readmore {
     color: white;
     text-decoration: none;
@@ -94,21 +112,28 @@ footer {
 }
 
 #videowindow {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
+    position: absolute;
     width: 1060px;
     height: 815px;
     backdrop-filter: blur(2px);
     top: 15%;
     border: 3px solid grey;
     border-radius: 15px;
-    z-index: 1;
+    z-index: 1;    
 }
 
 iframe {
-    position: fixed;
-    border-radius: 15px;
-
+    padding: 5%;
+    position: absolute;
+    border-radius: 10px;  
 }
+
+.hidden {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;    
+}
+
+.show {
+    opacity: 1;
+}
+

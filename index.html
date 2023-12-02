@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/app.js" defer></script>
     <title>Spacey Travel</title>
   </head>
   <body>
@@ -24,9 +25,9 @@
           <h2>RECENT LAUNCH</h2>
           <h1>SHIPFLIGHT VIDEO</h1>
         </div>
-        <a href="#" class="readmore">WATCH NOW</a>
+        <a href="#" id="watchnow">WATCH NOW</a>
 
-        <div id="videowindow">
+        <div id="videowindow" class="hidden" class="show">
           <iframe
             width="960"
             height="715"

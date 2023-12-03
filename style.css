@@ -36,7 +36,7 @@ a:hover {
 
 /* Main 3 section styles */
 
-#galaxyone {
+#launch {
     height: 100vh;
     position: relative;
     background-image: url("./images/galaxy1.jpg");
@@ -91,12 +91,11 @@ a:hover {
 
 #watchnow:hover {
     backdrop-filter: blur(2px);
-    text-decoration: underline;   
+    text-decoration: underline; 
+    transition: all .5s;  
 }
 
-#watchnow:hover::before {
-    transition: width 0.5s ease-in-out;
-}
+
 
 .readmore {
     color: white;
@@ -112,8 +111,10 @@ a:hover {
 
 .readmore:hover {
     backdrop-filter: blur(2px);
-    text-decoration: underline;    
-}
+    text-decoration: underline; 
+    transition: all .5s;  
+}   
+
 
 /* Footer styles */
 
@@ -127,17 +128,18 @@ footer {
 
 #videowindow {
     position: absolute;
-    width: 1060px;
-    height: 815px;
+    width: 960px;
+    height: 715px;
     backdrop-filter: blur(2px);
-    top: 15%;
+    top: 10%;
     border: 3px solid grey;
     border-radius: 15px;
-    z-index: 1;   
+    z-index: 1; 
+    padding: 3%;  
 }
 
 iframe {
-    padding: 5%;
+    /* padding: 5%; */
     position: absolute;
     border-radius: 10px;      
 }

@@ -9,10 +9,10 @@
 
 
 
-const openvideowindow = () => {
+const openVideoWindow = () => {
     let videowindow = document.getElementById("videowindow");
     videowindow.classList.add("show");
 }
 
-watchnow.addEventListener("click", openvideowindow);
+watchnow.addEventListener("click", openVideoWindow);
 

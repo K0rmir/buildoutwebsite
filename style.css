@@ -48,7 +48,7 @@ a:hover {
     align-items: center;
 }
 
-#galaxytwo {
+#tickets {
     height: 100vh;
     position: relative;
     background-image: url("./images/galaxy2.jpg");
@@ -57,7 +57,7 @@ a:hover {
     background-position: center;
 }
 
-#galaxythree {
+#deals {
     height: 100vh;
     position: relative;
     background-image: url("./images/galaxy3.jpg");
